@@ -17,6 +17,7 @@ public class Checkpoint1Uusinta {
     */
     
     static void testPurchaseOrder(){
+        /*
         System.out.println("Tilausjärjestelmä");
         // Tilausta muodostettaessa parametrinä menee asikas
         // Tilauksella täytyy olla kentät orderDate (Tilauspvm) ja deliveryDate (toimituspvm)
@@ -38,21 +39,25 @@ public class Checkpoint1Uusinta {
         // isUrgent palauttaa vain true/false -tiedon
         po.addItem("Liima",1,50.3);
         System.out.println("Tuote on kiireellinen, jos tilauksen kokonaishinta > 50"+po.isUrgent());
-    }
-    
-    static void doService(Vehicle vehicle){
-        System.out.println(vehickle.getOwner()+"n "+vehickle.getType()+" kävi öljynvaihdossa");
+        */
     }
     
     /*
         Toteuta tarvittavat käsitteet, jotta alla olevat kaksi funktiota tuottavat
         kommenteissa mainitut tulosteet
     */
+    /*
+    static void doService(Vehicle vehicle){
+        System.out.println(vehickle.getOwner()+"n "+vehickle.getType()+" kävi öljynvaihdossa");
+    }
+    */
     static void testServiceable(){
+        /*
         Motorbike mb=new Motorbike("Mia");
         Car c=new Car("Tuomo");
         doService(mb); // -> Mian moottoripyörä kävi öljynvaihdossa
         doService(c); // -> Tuomon auto kävi öljynvaihdossa
+        */
     }
     
     public static void main(String[] args) {

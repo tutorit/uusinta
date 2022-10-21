@@ -23,10 +23,10 @@ public class Checkpoint1Uusinta {
         // Tilauksella täytyy olla kentät orderDate (Tilauspvm) ja deliveryDate (toimituspvm)
         // Tilauspäivä=nykyinen päivä, toimituspäivä on kolmen viikon päässä tilauspäivästä
         PurchaseOrder po=new PurchaseOrder("Asiakas Oy");
-        // TIlaukseen voidaan lisätä tilausrivejä erilaisella kahdella tapaa
+        // TIlaukseen voidaan lisätä tilausrivejä
         // näiden täytyy tallettua tilauksella olevaan kokoelmaan
         po.addItem("Sakset",2,15.3);  //Tilatun tuotten nimi, kappalemäärä ja yksikköhinta
-        po.addItem(new OrderItem("Kopiopaperi",1,2.3));//Tilatun tuotten nimi, kappalemäärä ja yksikköhinta
+        po.addItem("Kopiopaperi",1,2.3); //Tilatun tuotten nimi, kappalemäärä ja yksikköhinta
         po.print();
         // tulostetaan:
         // Asiakkaan nimi
